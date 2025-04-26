@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Izolace a zateplení střech | Petr Kráčman</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        .hero-pattern {
+            background-image: url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80');
+            background-size: cover;
+            background-position: center;
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <!-- Header -->
+    <header class="bg-white shadow-sm">
+        <nav class="container mx-auto px-6 py-4">
+            <div class="flex justify-between items-center">
+                <div class="text-2xl font-bold text-gray-800">Petr Kráčman</div>
+                <div class="hidden md:flex space-x-8">
+                    <a href="#o-nas" class="text-gray-600 hover:text-gray-900">O nás</a>
+                    <a href="#sluzby" class="text-gray-600 hover:text-gray-900">Služby</a>
+                    <a href="#proc-izolovat" class="text-gray-600 hover:text-gray-900">Proč izolovat</a>
+                    <a href="#kontakt" class="text-gray-600 hover:text-gray-900">Kontakt</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-pattern h-screen flex items-center">
+        <div class="container mx-auto px-6">
+            <div class="bg-white bg-opacity-90 p-8 rounded-lg max-w-2xl">
+                <h1 class="text-4xl md:text-5xl font-bold text-gray-800 mb-4">Profesionální izolace a zateplení střech</h1>
+                <p class="text-xl text-gray-600 mb-8">Zajistíme vám kvalitní hydroizolaci a zateplení střechy s garancí dlouhodobé životnosti.</p>
+                <div class="flex flex-wrap gap-4 mb-6">
+                    <span class="bg-blue-100 text-blue-800 px-4 py-2 rounded-full text-sm">Znojmo</span>
+                    <span class="bg-blue-100 text-blue-800 px-4 py-2 rounded-full text-sm">Brno</span>
+                    <span class="bg-blue-100 text-blue-800 px-4 py-2 rounded-full text-sm">Třebíč</span>
+                </div>
+                <a href="#kontakt" class="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition duration-300">Kontaktujte nás</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- O nás -->
+    <section id="o-nas" class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-12">O nás</h2>
+            <div class="max-w-3xl mx-auto text-center">
+                <p class="text-gray-600 text-lg mb-6">
+                    Jmenuji se Petr Kráčman a v oboru hydroizolací a zateplení střech působím již <span id="years-of-experience" class="font-bold text-blue-600">19</span> let. Každý projekt beru jako výzvu a kladu důraz na kvalitu provedení a spokojenost zákazníků.
+                </p>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
+                    <div class="p-6 bg-gray-50 rounded-lg">
+                        <i class="fas fa-medal text-4xl text-blue-600 mb-4"></i>
+                        <h3 class="text-xl font-semibold mb-2">Kvalita</h3>
+                        <p class="text-gray-600">Používáme pouze nejkvalitnější materiály a postupy</p>
+                    </div>
+                    <div class="p-6 bg-gray-50 rounded-lg">
+                        <i class="fas fa-clock text-4xl text-blue-600 mb-4"></i>
+                        <h3 class="text-xl font-semibold mb-2">Rychlost</h3>
+                        <p class="text-gray-600">Dodržujeme termíny a pracujeme efektivně</p>
+                    </div>
+                    <div class="p-6 bg-gray-50 rounded-lg">
+                        <i class="fas fa-handshake text-4xl text-blue-600 mb-4"></i>
+                        <h3 class="text-xl font-semibold mb-2">Spolehlivost</h3>
+                        <p class="text-gray-600">Garantuji kvalitu a spokojenost zákazníků</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Služby -->
+    <section id="sluzby" class="py-20 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-12">Naše služby</h2>
+            <div class="max-w-3xl mx-auto text-center mb-12">
+                <p class="text-gray-600 text-lg">
+                    Všechny služby poskytujeme včetně kompletní dodávky materiálu. Na veškeré provedené izolatérské práce poskytujeme záruku. Cenové nabídky zpracováváme zdarma a na míru vašim potřebám.
+                </p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+                <div class="bg-white p-8 rounded-lg shadow-sm">
+                    <h3 class="text-2xl font-semibold mb-4">Hydroizolace střech</h3>
+                    <p class="text-gray-600 mb-4">
+                        Specializujeme se na PVC hydroizolace plochých střech rodinných domků a bytových domů. Používáme moderní hydroizolační materiály a technologie pro dokonalou ochranu před vodou.
+                    </p>
+                    <ul class="space-y-2">
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-2"></i>
+                            <span>Ploché střechy rodinných domů</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-2"></i>
+                            <span>Ploché střechy bytových domů</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-2"></i>
+                            <span>Kompletní dodávka materiálu</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-2"></i>
+                            <span>Záruka na provedené práce</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="bg-white p-8 rounded-lg shadow-sm">
+                    <h3 class="text-2xl font-semibold mb-4">Další izolační práce</h3>
+                    <p class="text-gray-600 mb-4">
+                        Kromě střech nabízíme také izolace teras, balkónů, zahradních jezírek a spodní izolace staveb proti půdní vlhkosti.
+                    </p>
+                    <ul class="space-y-2">
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-2"></i>
+                            <span>Izolace teras a balkónů</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-2"></i>
+                            <span>Zahradní jezírka</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-2"></i>
+                            <span>Spodní izolace staveb</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-2"></i>
+                            <span>Zateplení střech</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="mt-12 text-center">
+                <a href="#kontakt" class="inline-block bg-blue-600 text-white px-8 py-3 rounded-lg hover:bg-blue-700 transition duration-300">
+                    Získejte zdarma cenovou nabídku
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Proč izolovat -->
+    <section id="proc-izolovat" class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-12">Proč izolovat střechu?</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="p-6 bg-gray-50 rounded-lg">
+                    <i class="fas fa-euro-sign text-4xl text-blue-600 mb-4"></i>
+                    <h3 class="text-xl font-semibold mb-2">Úspora energie</h3>
+                    <p class="text-gray-600">Snížení nákladů na vytápění až o 30%</p>
+                </div>
+                <div class="p-6 bg-gray-50 rounded-lg">
+                    <i class="fas fa-home text-4xl text-blue-600 mb-4"></i>
+                    <h3 class="text-xl font-semibold mb-2">Komfort</h3>
+                    <p class="text-gray-600">Příjemné vnitřní klima po celý rok</p>
+                </div>
+                <div class="p-6 bg-gray-50 rounded-lg">
+                    <i class="fas fa-shield-alt text-4xl text-blue-600 mb-4"></i>
+                    <h3 class="text-xl font-semibold mb-2">Ochrana</h3>
+                    <p class="text-gray-600">Prevence proti vlhkosti a plísním</p>
+                </div>
+                <div class="p-6 bg-gray-50 rounded-lg">
+                    <i class="fas fa-leaf text-4xl text-blue-600 mb-4"></i>
+                    <h3 class="text-xl font-semibold mb-2">Ekologie</h3>
+                    <p class="text-gray-600">Snížení uhlíkové stopy budovy</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Galerie -->
+    <section class="py-20 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-12">Naše realizace</h2>
+            <div class="max-w-4xl mx-auto">
+                <div class="relative">
+                    <!-- Carousel container -->
+                    <div class="carousel-container overflow-hidden">
+                        <div class="carousel-track flex transition-transform duration-500 ease-in-out">
+                            <!-- Carousel items -->
+                            <div class="carousel-item w-full flex-shrink-0">
+                                <div class="bg-white p-4 rounded-lg shadow-sm">
+                                    <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80" 
+                                         alt="Realizace izolace střechy" 
+                                         class="w-full h-96 object-cover rounded-lg">
+                                    <div class="mt-4">
+                                        <h3 class="text-xl font-semibold">Izolace ploché střechy</h3>
+                                        <p class="text-gray-600">Rodinný dům, Znojmo</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item w-full flex-shrink-0">
+                                <div class="bg-white p-4 rounded-lg shadow-sm">
+                                    <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80" 
+                                         alt="Realizace izolace terasy" 
+                                         class="w-full h-96 object-cover rounded-lg">
+                                    <div class="mt-4">
+                                        <h3 class="text-xl font-semibold">Izolace terasy</h3>
+                                        <p class="text-gray-600">Bytový dům, Brno</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item w-full flex-shrink-0">
+                                <div class="bg-white p-4 rounded-lg shadow-sm">
+                                    <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80" 
+                                         alt="Realizace zateplení" 
+                                         class="w-full h-96 object-cover rounded-lg">
+                                    <div class="mt-4">
+                                        <h3 class="text-xl font-semibold">Zateplení střechy</h3>
+                                        <p class="text-gray-600">Rodinný dům, Třebíč</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Navigation buttons -->
+                    <button class="carousel-prev absolute left-0 top-1/2 -translate-y-1/2 bg-white/80 hover:bg-white p-2 rounded-full shadow-lg">
+                        <i class="fas fa-chevron-left text-gray-800"></i>
+                    </button>
+                    <button class="carousel-next absolute right-0 top-1/2 -translate-y-1/2 bg-white/80 hover:bg-white p-2 rounded-full shadow-lg">
+                        <i class="fas fa-chevron-right text-gray-800"></i>
+                    </button>
+                </div>
+                
+                <!-- Dots navigation -->
+                <div class="flex justify-center mt-4 space-x-2">
+                    <button class="carousel-dot w-3 h-3 rounded-full bg-gray-300 hover:bg-blue-600 transition-colors"></button>
+                    <button class="carousel-dot w-3 h-3 rounded-full bg-gray-300 hover:bg-blue-600 transition-colors"></button>
+                    <button class="carousel-dot w-3 h-3 rounded-full bg-gray-300 hover:bg-blue-600 transition-colors"></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Kontaktní formulář -->
+    <section id="kontakt" class="py-20 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-12">Kontaktujte nás</h2>
+            <div class="max-w-2xl mx-auto">
+                <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST" class="bg-white p-8 rounded-lg shadow-sm">
+                    <div class="mb-6">
+                        <label for="name" class="block text-gray-700 mb-2">Jméno</label>
+                        <input type="text" id="name" name="name" required class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+                    </div>
+                    <div class="mb-6">
+                        <label for="email" class="block text-gray-700 mb-2">E-mail</label>
+                        <input type="email" id="email" name="email" required class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+                    </div>
+                    <div class="mb-6">
+                        <label for="phone" class="block text-gray-700 mb-2">Telefon</label>
+                        <input type="tel" id="phone" name="phone" class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+                    </div>
+                    <div class="mb-6">
+                        <label for="message" class="block text-gray-700 mb-2">Zpráva</label>
+                        <textarea id="message" name="message" rows="4" required class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"></textarea>
+                    </div>
+                    <button type="submit" class="w-full bg-blue-600 text-white py-3 rounded-lg hover:bg-blue-700 transition duration-300">
+                        Odeslat zprávu
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-12">
+        <div class="container mx-auto px-6">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div>
+                    <h3 class="text-xl font-semibold mb-4">IzolacePro</h3>
+                    <p class="text-gray-400">Profesionální izolace a zateplení střech</p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-semibold mb-4">Kontakt</h3>
+                    <p class="text-gray-400">Email: info@izolacepro.cz</p>
+                    <p class="text-gray-400">Tel: +420 123 456 789</p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-semibold mb-4">Sledujte nás</h3>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-400 hover:text-white">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 mt-8 pt-8 text-center text-gray-400">
+                <p>&copy; 2024 IzolacePro. Všechna práva vyhrazena.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
