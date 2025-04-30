@@ -138,4 +138,23 @@ dots.forEach((dot, index) => {
 calculateYearsOfExperience();
 
 // Načteme první obrázek při načtení stránky
-loadCurrentAndAdjacentImages(); 
+loadCurrentAndAdjacentImages();
+
+// Form submit handling
+document.querySelector('form').addEventListener('submit', function(e) {
+    e.preventDefault();
+    
+    // Zde můžete přidat validaci formuláře
+    
+    // Odeslání formuláře
+    this.submit();
+    
+    // Zobrazení potvrzovací zprávy
+    const formContainer = this.parentElement;
+    formContainer.innerHTML = `
+        <div class="bg-green-100 border border-green-400 text-green-700 px-4 py-3 rounded relative" role="alert">
+            <strong class="font-bold">Děkujeme!</strong>
+            <span class="block sm:inline"> Vaše zpráva byla úspěšně odeslána. Ozveme se vám co nejdříve.</span>
+        </div>
+    `;
+}); 
